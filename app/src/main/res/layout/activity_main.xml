@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4DDF4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/skyavg"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tempmin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4DDF4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg5"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg6"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg7"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg8"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherimg9"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4DDF4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:id="@+id/result" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.5dp"
+                android:id="@+id/weather8"/>
+
+            <TextView
+                android:id="@+id/weather9"
+                android:textSize="17.5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="★추천 의류★"
+        android:textSize="24dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/quaterimg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/sleeveless50"/>
+
+        <ImageView
+            android:id="@+id/quaterimg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_toRightOf="@+id/quaterimg1"
+            android:src="@drawable/tshirt50" />
+
+        <ImageView
+            android:id="@+id/quaterimg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/quaterimg2"
+            android:src="@drawable/tshirt50" />
+
+        <ImageView
+            android:id="@+id/quaterimg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="43dp"
+            android:layout_toRightOf="@+id/quaterimg3"
+            android:src="@drawable/tshirt50" />
+
+        <ImageView
+            android:id="@+id/quaterimg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/quaterimg4"
+            android:src="@drawable/tshirt50" />
+
+        <TextView
+            android:id="@+id/quater1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quaterimg1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:text="기리" />
+
+        <TextView
+            android:id="@+id/quater2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quaterimg2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="-1dp"
+            android:text="보이" />
+
+        <TextView
+            android:id="@+id/quater5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quaterimg1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="363dp"
+            android:text="깅링" />
+
+        <TextView
+            android:id="@+id/quater3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quaterimg1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="190dp"
+            android:text="봉잉" />
+
+        <TextView
+            android:id="@+id/quater4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quaterimg1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="283dp"
+            android:text="기리" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comments"
+            android:layout_below="@+id/quater1"
+            android:layout_centerInParent="true"
+            android:textSize="22dp"
+            android:text="ffffff"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gotocmt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="게시판 이용하기"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_gallery.xml" value="0.2734375" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_member_init.xml" value="0.2754782700075322" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/activity_write_post.xml" value="0.2734375" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/community.xml" value="0.17962962962962964" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/fragment_camera2_basic.xml" value="0.25" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/item_post.xml" value="0.2734375" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/itemp_galley.xml" value="0.25" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/layout/view_loader.xml" value="0.2734375" />
+        <entry key="..\:/Android_java_example/MyApplication4233424/app/src/main/res/menu/post.xml" value="0.2734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
